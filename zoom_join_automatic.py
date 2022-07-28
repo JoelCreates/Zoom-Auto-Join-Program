@@ -1,7 +1,6 @@
 """
-Version 1.0
-- Made the Join link into a variable so that other ones can be inserted when different join links are required. This reduces time waste during copy
-and paste process.
+Version 1.1
+- Added a print statement for health check
 """
 import schedule
 import time
@@ -15,6 +14,7 @@ def open_link(link):
 def church_meeting():
     open_link(main_link)
 
+print("Program initiated, Device Healthy!")
 schedule.every().tuesday.at("20:45").do(church_meeting)
 schedule.every().thursday.at("20:45").do(church_meeting)
 schedule.every().friday.at("20:45").do(church_meeting)
