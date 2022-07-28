@@ -11,5 +11,5 @@ During use, you would notice that this program has one disadvantage, which is th
 6. To put the location of the folder where the Zoom auto join program is; this goes in "Start in". Press OK after all of that.
 7. Go to Trigger, set start date to whenever and manually adjust the trigger points to whatever you want to do.
 
--- Image of ZOOOM SCHEDULE
-After that, press OK to confirm and let the Task Scheduler to its magic for you.
+![image](https://user-images.githubusercontent.com/48869133/181621118-c2570814-64bf-4edc-8dc7-8b056b584fc7.png)
+
