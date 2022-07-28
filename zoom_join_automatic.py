@@ -16,7 +16,7 @@ def church_meeting():
     open_link(main_link)
 
 schedule.every().tuesday.at("20:45").do(church_meeting)
-schedule.every().thursday.at("20:12").do(church_meeting)
+schedule.every().thursday.at("20:45").do(church_meeting)
 schedule.every().friday.at("20:45").do(church_meeting)
 schedule.every().sunday.at("11:10").do(church_meeting)
 
