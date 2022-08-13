@@ -38,5 +38,5 @@ while 1:
         exit()
     else:
         schedule.run_pending()
-        time.sleep(600)
+        time.sleep(600) # Waits 10 minutes before closing, this is just to allow for enough time for the program to do its job.
         exit()
